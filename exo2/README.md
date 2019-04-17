@@ -47,7 +47,7 @@ Pourquoi à votre avis ?
 Tout simplement car notre image est basé sur une image bien particulière, l'image `scratch`.
 Cette image est complètement vide et sert de base pour toutes les images Docker.
 
-Si vous taper la commande suivante `ldd hello` vous devriez voir quelque chose du genre :
+Si vous taper la commande `ldd hello` vous devriez voir quelque chose du genre :
 ```
 linux-vdso.so.1 (0x00007ffc6d349000)
 libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7ee16e1000)

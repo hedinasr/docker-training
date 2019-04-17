@@ -24,4 +24,10 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 
 * Copier le contenue du répertoire `www` dans `/var/www/html`.
 * Builder l'image.
-* Lancer un conteneur à partir de cette nouvelle image.
+* Lancer un conteneur en mappant le port 80 du conteneur sur le port 8080 de votre machine
+  et en montant le répertoire `www` sur `/var/www/html`.
+* Ouvrer votre navigateur à l'adresse http://localhost:8080
+
+*Questions*:
+
+* Modifier le fichier `www/index.html` et rafraichissez la page web, qu'observez-vous ?

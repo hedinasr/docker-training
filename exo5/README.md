@@ -4,9 +4,7 @@
 
 *Instructions*:
 
-* Faire un fichier `docker-compose.yml` l'exercice précédent.
+* Faire un fichier `docker-compose.yml` de l'exercice précédent :
+    - exposer le conteneur sur le port 8080 de votre machine,
+    - partager le répertoire `www` avec `/var/www/html`.
 * Lancer `docker-compose up` pour démarrer le conteneur.
-
-On pourra faire remarquer l'intérêt de faire un partage de volume
-en modifier le fichier `www/index.html` et en observant les modifications
-sans avoir un rebuiler l'image.
