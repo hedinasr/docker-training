@@ -1,0 +1,29 @@
+version: '2'
+services:
+  web:
+    build: .
+    depends_on: 
+      - db
+    env_file: .env
+    networks:
+      backend:
+    ports:
+      - "8888:80"
+    restart: always
+    volumes:
+      - ./www:/var/www/html/
+
+  db:
+    env_file: .env
+    image: mariadb
+    networks:
+      backend:
+    restart: always
+    volumes:
+      - db:/var/lib/mysql/data
+
+volumes:
+  db:
+
+networks:
+  backend:
