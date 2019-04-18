@@ -3,7 +3,10 @@
 ## Découvrir l'interface CLI
 
 *Objectifs*:
+
 - manipuler la ligne de commande
+
+*Instructions*:
 
 * Chercher l'image `alpine`.
 * Télécharger la première image de la liste.

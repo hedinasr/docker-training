@@ -5,6 +5,7 @@
 Dans cet exercice vous allez créer une image qui lance un serveur web.
 
 *Objectifs*:
+
 - manipuler les différentes instructions du Dockerfile
 - savoir utiliser la commande `docker` et ses différentes options
 
